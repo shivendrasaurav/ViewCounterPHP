@@ -17,13 +17,13 @@
 
 <html>
     <head>
-        <title>Session Based View Counter</title>
+        <title>Session Based Visits Counter</title>
         <link href="./main.css" type="text/css" rel="stylesheet" />
     </head>
 
     <body>
         <div class="counterarea">
-            <p class="countertext">This Page has been Viewed</p>
+            <p class="countertext">This Page has been Visited</p>
             <?php
                 echo("
     
