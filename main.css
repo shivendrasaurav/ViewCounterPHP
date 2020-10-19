@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+body {
+  background: #eaeaea;
+  height: 60vh;
+}
+
+body .bl {
+  position: fixed;
+  bottom: 10px;
+  left: 20px;
+}
+
+body .bl p {
+  margin-top: -10px;
+  font-family: "Barlow";
+}
+
+body .counterarea {
+  width: 400px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 35vh;
+  background: inherit;
+  -webkit-box-shadow: 5px 5px 15px #acacacaa, -5px -5px 15px #ffffffff;
+          box-shadow: 5px 5px 15px #acacacaa, -5px -5px 15px #ffffffff;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: "Barlow";
+}
+
+body .counterarea .counterrtext {
+  font-size: 16px;
+}
+
+body .counterarea .counter {
+  margin-top: -10px;
+  margin-bottom: -10px;
+  font-family: "Permanent Marker";
+}
+
+body .counterarea button {
+  display: inline;
+  font-size: 16px;
+  padding: 10px 16px;
+  border: none;
+  outline: none;
+  background: inherit;
+  -webkit-box-shadow: 4px 4px 15px #acacacaa, -4px -4px 15px #ffffffff;
+          box-shadow: 4px 4px 15px #acacacaa, -4px -4px 15px #ffffffff;
+  font-family: "Barlow";
+}
+
+body .counterarea button:hover {
+  -webkit-box-shadow: 8px 8px 15px #acacacaa, -8px -8px 15px #ffffffff;
+          box-shadow: 8px 8px 15px #acacacaa, -8px -8px 15px #ffffffff;
+  -webkit-transition: 300ms;
+  transition: 300ms;
+}
+
+body .counterarea form {
+  background: inherit;
+  display: inline;
+}
+/*# sourceMappingURL=main.css.map */

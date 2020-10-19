@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body{
+    background: #eaeaea;
+    height: 60vh;
+
+    .bl{
+        position: fixed;
+        bottom: 10px;
+        left: 20px;
+
+        p{
+            margin-top: -10px;
+            font-family: "Barlow";
+        }
+    }
+
+    .counterarea{
+        width: 400px;
+        display: block;
+        margin: auto;
+        text-align: center;
+        margin-top: 35vh;
+        background: inherit;
+        box-shadow: 5px 5px 15px #acacacaa, -5px -5px 15px #ffffffff;
+        padding: 20px;
+        border-radius: 10px;
+        font-family: "Barlow";
+
+        .counterrtext{
+            font-size: 16px;
+        }
+        .counter{
+            margin-top: -10px;
+            margin-bottom: -10px;
+            font-family: "Permanent Marker";
+        }
+
+        button{
+            display: inline;
+            font-size: 16px;
+            padding: 10px 16px;
+            border: none;
+            outline: none;
+            background: inherit;
+            box-shadow: 4px 4px 15px #acacacaa, -4px -4px 15px #ffffffff;
+            font-family: "Barlow";
+            
+
+            &:hover{
+                box-shadow: 8px 8px 15px #acacacaa, -8px -8px 15px #ffffffff;
+                transition: 300ms;
+            }
+        }
+        form{
+            background: inherit;
+            display: inline;
+        }
+    }
+}
